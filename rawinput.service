@@ -1,0 +1,11 @@
+[Unit]
+Description = rawinput daemon
+
+[Service]
+ExecStart = /home/pi/rawinout_log
+Restart = no 
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
+
